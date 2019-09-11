@@ -1,0 +1,10 @@
+Problem Description/ Introduction
+This is a Data Science Capstone Project for the completion of the IBM Data Science Certification. In this project, a segmentation of the downtown area of two major US cities, Chicago and Houston will be performed and their similarities and or differences explored. This can be of use to someone who is looking at making a comparison between both cities.
+
+Data Description
+For the completion of this project, the following data sets and API will be used;
+- Foursquare API for generating venues in the selected areas,
+- A data set containing US cities zip codes along with their coordinates. This will be used to generate data frames for Chicago and Houston, (https://public.opendatasoft.com/explore/dataset/us-zip-code-latitude-and-longitude)
+- A data set containing Chicago zip codes and the area name, (https://www.chicagotribune.com/chi-community-areas-htmlstory.html)
+- A data set containing Houston zip codes and the area name, (https://web.har.com/zipcode)
+The data containing the zip codes and area names will be merged to create a new data frame for identifying the neighborhoods in both cities which will be used for segmentation and then clustering.
